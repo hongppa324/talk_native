@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "sender": "other",
+    "displayName": "김민수",
+    "text": "어제 얘기한 일정 다시 한 번만 확인해줘!",
+    "time": "오전 9:02",
+    "date": "2025-10-03",
+    "type": "TEXT",
+    "avatarUrl": "https://randomuser.me/api/portraits/men/32.jpg",
+    "totalRecipients": 3,
+    "readCount": 1,
+    "reactions": [{"emoji": "👀", "count": 1}]
+  },
+  {
+    "id": "2",
+    "sender": "me",
+    "text": "ㅇㅋ 오늘 오후 3시에 리마인드 걸어둘게.",
+    "time": "오전 9:05",
+    "date": "2025-10-03",
+    "type": "TEXT",
+    "avatarUrl": "https://randomuser.me/api/portraits/men/41.jpg",
+    "totalRecipients": 3,
+    "readCount": 2
+  },
+  {
+    "id": "3",
+    "sender": "other",
+    "displayName": "박지민",
+    "text": "참고 링크: https://okcanvas.dev/docs",
+    "time": "오전 9:17",
+    "date": "2025-10-03",
+    "type": "TEXT",
+    "avatarUrl": "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    "id": "4",
+    "sender": "other",
+    "displayName": "박지민",
+    "text": "이미지 몇 장 공유할게!",
+    "time": "오전 9:18",
+    "date": "2025-10-03",
+    "type": "IMAGE",
+    "mediaUrls": [
+      "https://picsum.photos/seed/p1/900/600",
+      "https://picsum.photos/seed/p2/900/600"
+    ],
+    "thumbnailUrl": "https://picsum.photos/seed/thumb4/300/200"
+  },
+  {
+    "id": "5",
+    "sender": "me",
+    "text": "첫 번째가 제일 괜찮다!",
+    "time": "오전 9:22",
+    "date": "2025-10-03",
+    "type": "TEXT",
+    "reactions": [{"emoji": "❤️", "count": 2}]
+  },
+  {
+    "id": "6",
+    "sender": "other",
+    "displayName": "최유진",
+    "text": "회의록 첨부합니다.",
+    "time": "오전 10:01",
+    "date": "2025-10-03",
+    "type": "FILE",
+    "mediaUrl": "https://example.com/meeting_notes.pdf",
+    "fileSize": "2.1MB"
+  },
+  {
+    "id": "7",
+    "sender": "me",
+    "text": "샘플 영상 공유!",
+    "time": "오전 10:32",
+    "date": "2025-10-03",
+    "type": "VIDEO",
+    "mediaUrl": "https://example.com/sample_video.mp4",
+    "thumbnailUrl": "https://picsum.photos/seed/vthumb7/400/240",
+    "mediaDuration": "00:13",
+    "reactions": [{"emoji": "🔥", "count": 2}]
+  },
+  {
+    "id": "8",
+    "sender": "other",
+    "displayName": "상대",
+    "text": "좋아요 ㅎㅎ 1시에 봬요.",
+    "time": "오전 10:45",
+    "date": "2025-10-03",
+    "type": "TEXT"
+  },
+  {
+    "id": "9",
+    "sender": "me",
+    "text": "사진 하나 더!",
+    "time": "오전 11:02",
+    "date": "2025-10-03",
+    "type": "IMAGE",
+    "mediaUrls": ["https://picsum.photos/seed/p3/900/600"],
+    "thumbnailUrl": "https://picsum.photos/seed/thumb9/300/200"
+  },
+  {
+    "id": "10",
+    "sender": "other",
+    "displayName": "김민수",
+    "text": "공지: 오후 2시에 서비스 점검 예정입니다.",
+    "time": "오전 11:10",
+    "date": "2025-10-03",
+    "type": "SYSTEM"
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "id": "1",
+    "title": "가족방",
+    "lastMessage": "저녁 뭐 먹지? 🍲",
+    "unread": 3,
+    "pinned": true,
+    "timestamp": 1725505200000,
+    "participants": [
+      { "id": "p1", "name": "엄마", "avatarUrl": "https://randomuser.me/api/portraits/women/65.jpg" },
+      { "id": "p2", "name": "아빠", "avatarUrl": "https://randomuser.me/api/portraits/men/41.jpg" },
+      { "id": "p3", "name": "나", "avatarUrl": "https://randomuser.me/api/portraits/men/22.jpg" },
+      { "id": "p4", "name": "Alice", "avatarUrl": "https://randomuser.me/api/portraits/women/12.jpg" }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "프로젝트 A",
+    "lastMessage": "내일 배포 일정 공유",
+    "muted": true,
+    "pinned": true,
+    "timestamp": 1728010800000,
+    "participants": [
+      { "id": "p1", "name": "Alice", "avatarUrl": "https://randomuser.me/api/portraits/women/12.jpg" },
+      { "id": "p2", "name": "Bob", "avatarUrl": "https://randomuser.me/api/portraits/men/45.jpg" }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "친구들",
+    "lastMessage": "주말에 등산 어때",
+    "unread": 2,
+    "timestamp": 1729062000000,
+    "participants": [
+      { "id": "p1", "name": "J", "avatarUrl": "https://randomuser.me/api/portraits/men/33.jpg" }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "동호회 사진",
+    "lastMessage": "사진 공유했어요",
+    "timestamp": 1730102400000,
+    "participants": [
+      { "id": "p1", "name": "A", "avatarUrl": "https://randomuser.me/api/portraits/men/10.jpg" },
+      { "id": "p2", "name": "B", "avatarUrl": "https://randomuser.me/api/portraits/women/11.jpg" },
+      { "id": "p3", "name": "C", "avatarUrl": "https://randomuser.me/api/portraits/men/12.jpg" }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "개발 스터디",
+    "lastMessage": "코틀린 코루틴 주제로 진행",
+    "timestamp": 1731156000000,
+    "participants": [
+      { "id": "p1", "name": "A", "avatarUrl": "https://randomuser.me/api/portraits/men/10.jpg" },
+      { "id": "p2", "name": "B", "avatarUrl": "https://randomuser.me/api/portraits/women/11.jpg" },
+      { "id": "p3", "name": "C", "avatarUrl": "https://randomuser.me/api/portraits/men/12.jpg" },
+      { "id": "p4", "name": "D", "avatarUrl": "https://randomuser.me/api/portraits/women/13.jpg" },
+      { "id": "p5", "name": "E", "avatarUrl": "https://randomuser.me/api/portraits/men/14.jpg" }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "회사 공지",
+    "lastMessage": "연휴 일정 공지",
+    "unread": 10,
+    "timestamp": 1731242400000,
+    "participants": []
+  },
+  {
+    "id": "7",
+    "title": "디자인팀",
+    "lastMessage": "새 컴포넌트 가이드 초안",
+    "timestamp": 1731760800000,
+    "participants": [
+      { "id": "p1", "name": "Mina", "avatarUrl": "https://randomuser.me/api/portraits/women/31.jpg" },
+      { "id": "p2", "name": "Ethan", "avatarUrl": "https://randomuser.me/api/portraits/men/32.jpg" },
+      { "id": "p3", "name": "Yuri", "avatarUrl": "https://randomuser.me/api/portraits/women/33.jpg" },
+      { "id": "p4", "name": "Ken", "avatarUrl": "https://randomuser.me/api/portraits/men/34.jpg" }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "런치 모임",
+    "lastMessage": "내일 파스타? 🍝",
+    "unread": 1,
+    "timestamp": 1732365600000,
+    "participants": [
+      { "id": "p1", "name": "Paul", "avatarUrl": "https://randomuser.me/api/portraits/men/40.jpg" },
+      { "id": "p2", "name": "Soo", "avatarUrl": "https://randomuser.me/api/portraits/women/41.jpg" }
+    ]
+  },
+  {
+    "id": "13",
+    "title": "사진 동아리",
+    "lastMessage": "RAW 파일 공유 완료",
+    "unread": 5,
+    "timestamp": 1760086320000,
+    "participants": [
+      { "id": "p1", "name": "Ian", "avatarUrl": "https://randomuser.me/api/portraits/men/91.jpg" }
+    ]
+  },
+  {
+    "id": "14",
+    "title": "축구팀",
+    "lastMessage": "일요일 5시 경기 ⚽️",
+    "timestamp": 1760087520000,
+    "participants": [
+      { "id": "p1", "name": "Tom", "avatarUrl": "https://randomuser.me/api/portraits/men/95.jpg" },
+      { "id": "p2", "name": "Ray", "avatarUrl": "https://randomuser.me/api/portraits/men/96.jpg" },
+      { "id": "p3", "name": "Ben", "avatarUrl": "https://randomuser.me/api/portraits/men/97.jpg" },
+      { "id": "p4", "name": "Kai", "avatarUrl": "https://randomuser.me/api/portraits/men/98.jpg" },
+      { "id": "p5", "name": "Zed", "avatarUrl": "https://randomuser.me/api/portraits/men/99.jpg" }
+    ]
+  },
+  {
+    "id": "15",
+    "title": "오픈채팅-테크",
+    "lastMessage": "Compose Multiplatform 얘기 나왔어요",
+    "timestamp": 1760089200000,
+    "participants": []
+  },
+  {
+  "id": "16",
+  "title": "운영팀 회의",
+  "lastMessage": "내일 점검 일정 공유드립니다.",
+  "timestamp": 1759999200000,
+  "participants": [
+    { "id": "p1", "name": "운영팀장", "avatarUrl": "https://randomuser.me/api/portraits/men/101.jpg" },
+    { "id": "p2", "name": "지원담당", "avatarUrl": "https://randomuser.me/api/portraits/women/102.jpg" }
+  ]
+},
+{
+  "id": "17",
+  "title": "고객사 채팅",
+  "lastMessage": "API 키 갱신 완료했습니다.",
+  "unread": 4,
+  "timestamp": 1759996500000,
+  "participants": [
+    { "id": "p1", "name": "김고객", "avatarUrl": "https://randomuser.me/api/portraits/men/103.jpg" },
+    { "id": "p2", "name": "영업담당", "avatarUrl": "https://randomuser.me/api/portraits/women/104.jpg" }
+  ]
+},
+{
+  "id": "18",
+  "title": "QA 피드백",
+  "lastMessage": "빌드 1.0.3 테스트 완료 ✅",
+  "unread": 1,
+  "timestamp": 1759912800000,
+  "participants": [
+    { "id": "p1", "name": "QA 리더", "avatarUrl": "https://randomuser.me/api/portraits/women/105.jpg" },
+    { "id": "p2", "name": "개발자B", "avatarUrl": "https://randomuser.me/api/portraits/men/106.jpg" }
+  ]
+},
+{
+  "id": "19",
+  "title": "디자인 검수",
+  "lastMessage": "홈화면 배너 색상 수정 요청",
+  "timestamp": 1759909200000,
+  "participants": [
+    { "id": "p1", "name": "Paul", "avatarUrl": "https://randomuser.me/api/portraits/men/40.jpg" },
+      { "id": "p2", "name": "Soo", "avatarUrl": "https://randomuser.me/api/portraits/women/41.jpg" }
+  ]
+}
+]

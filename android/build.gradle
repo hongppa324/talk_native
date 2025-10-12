@@ -1,0 +1,42 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+  repositories {
+    google()
+    mavenCentral()
+  }
+  dependencies {
+    // Android Gradle Plugin (버전은 RN 플러그인이 관리)
+    classpath("com.android.tools.build:gradle")
+    // React Native Gradle Plugin
+    classpath("com.facebook.react:react-native-gradle-plugin")
+    // Kotlin Gradle Plugin
+    classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.21")
+    // ✅ Compose Compiler Gradle Plugin (Kotlin 2.0 이상 필수)
+    classpath("org.jetbrains.kotlin:compose-compiler-gradle-plugin:2.0.21")
+  }
+}
+
+def reactNativeAndroidDir = new File(
+  providers.exec {
+    workingDir(rootDir)
+    commandLine("node", "--print", "require.resolve('react-native/package.json')")
+  }.standardOutput.asText.get().trim(),
+  "../android"
+)
+
+allprojects {
+  repositories {
+    // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
+    maven {
+      url(reactNativeAndroidDir)
+    }
+    google()
+    mavenCentral()
+    maven { url 'https://www.jitpack.io' }
+  }
+}
+
+// Expo & RN root plugins (프로젝트 전역)
+apply plugin: "expo-root-project"
+apply plugin: "com.facebook.react.rootproject"
